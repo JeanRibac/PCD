@@ -1,0 +1,22 @@
+[
+  {
+    "id": "01cbd360-7804-4d9d-a137-a493c25c6208",
+    "name": "BMW",
+    "price": 20000
+  },
+  {
+    "id": "4a5c3e30-37f7-4f81-a365-e4d03bbb95a6 ",
+    "name": "AUDI",
+    "price": 25000
+  },
+  {
+    "id": "6b5b7d6a-a0cb-4291-8ac8-479232684d1c",
+    "name": "MERCEDES",
+    "price": 50000
+  },
+  {
+    "id": "030d63fa-6a9f-4e9a-aad9-abab2bd96a05",
+    "name": "DACIA",
+    "price": 7500
+  }
+]
