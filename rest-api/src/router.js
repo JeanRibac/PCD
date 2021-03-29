@@ -4,7 +4,7 @@ const { HTTP_METHODS: { GET, POST, PUT, DELETE }, return40X } = require('./util'
 const router = (req, res) => {
   const { url, method } = req;
   const api = '/api'
-  const carRegex = RegExp(`/\/${api}\/car\/\w+/`);
+  const carRegex = RegExp(/\/api\/car\/\w+/);
 
   const dict = {
     [GET]: () => {
@@ -33,6 +33,7 @@ const router = (req, res) => {
         return deleteCar(req, res, id)
       }
     },
+    // PATCH
   }
 
   if (dict[method] === undefined) {
